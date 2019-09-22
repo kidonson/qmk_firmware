@@ -11,19 +11,9 @@ extern keymap_config_t keymap_config;
 #define _SYMS 2
 #define _FUNC 3
 
-#define _WASD 4
-#define _WASD_NUMS 5
-#define _WASD_FUNC 6
-
-enum custom_keycodes {
-  QWERTY = SAFE_RANGE,
-  FUNC,
-  NUMS,
-  SYMS,
-  WASD,
-  WASD_NUMS,
-  WASD_FUNC,
-};
+#define _WASD 16
+#define _WASD_NUMS 17
+#define _WASD_FUNC 18
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
