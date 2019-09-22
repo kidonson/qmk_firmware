@@ -58,7 +58,7 @@ The right half contains the numpad, with a couple of options for 0.
 The right half contains the number symbols are placed in left-to-right, top-to-bottom on the finger-resting columns.
 (Their shifted/unshifted counterparts can be found on the Symbols layer).
 
-#### Symbols Layer
+#### Symbol Layer
 ```
 ,-----------------------------------------------------------------------------------.
 |      |      |      |      |   ~  |      |      |   "  |   '  |   `  |      |      |
@@ -91,15 +91,52 @@ The left half contains the navigation keys and the media keys.
 At the bottom-right is the toggle key for switching to the gaming mode.
 This button needs to be tapped twice, to prevent accidental activation.
 
-## Gaming Layout: WASD Mode
+## Gaming Mode
+This mode is enabled by double-tapping Fn-WASD.
+The same input can be used to exit the gaming mode.
 
 This mode is designed to be used with only the left half of the board, and comes with its own set of base, number and function layers.
 WASD keys are standard movement keys in gaming, so they are kept constant throughout all layers.
 This allows layers to be switched without interrupting in-game movement.
+```
+,-----------------------------------------.      .-----------------------------------------.
+|      |      |      |      |      |      |      |      |      |      |      |      |      |
+|------+------+------+------+------+-------      +------+------+------+------+------|------|
+|      |      |      |      |      |      |      |      |      |      |      |      |      |
+|------+------+------+------+------+------|      +------+------+------+------+------|------|
+|      |      |      |      |      |      |      |      |      |      |      |      |      |
+|------+------+------+------+------+------+      +------+------+------+------+------|------|
+|      |Pause |      |W_FUNC|W_NUMS|      |      |      |      |      |      |      |      |
+`-----------------------------------------'      '-----------------------------------------'
+```
+The Windows key is a nuisance when gaming, therefore it is replace with pause, which can be mapped in-game.
+The layer keys now point to gaming counterparts of Number and Function layers
+```
+,-----------------------------------------------------------------------------------.
+|      |   1  |   W  |   2  |   3  |   4  |      |      |      |      |      |      |
+|------+------+------+------+------+-------------+------+------+------+------+------|
+|      |   A  |   S  |   D  |   5  |   6  |      |      |      |      |      |      |
+|------+------+------+------+------+------|------+------+------+------+------+------|
+|      |   7  |   8  |   9  |   0  |   -  |      |      |      |      |      |      |
+|------+------+------+------+------+------+------+------+------+------+------+------|
+|      |   =  |      |      |      |      |      |      |      |      |      |      |
+`-----------------------------------------------------------------------------------'
+```
+The Number layer replaces all non-WASD alphas and the windows key with the number row.
+```
+,-----------------------------------------------------------------------------------.
+|      |  F1  |   W  |  F2  |  F3  |  F4  |      |      |      |      |      |      |
+|------+------+------+------+------+-------------+------+------+------+------+------|
+|      |   A  |   S  |   D  |  F5  |  F6  |      |      |      |      |      |      |
+|------+------+------+------+------+------|------+------+------+------+------+------|
+|      |  F7  |  F8  |  F9  |  F10 | F11  |      |      |      |      |      |      |
+|------+------+------+------+------+------+------+------+------+------+------+------|
+|      | F12  |      |      |      |      |      |      |      |      |      | WASD |
+`-----------------------------------------------------------------------------------'
+```
+The Function layer replaces all non-WASD alphas and the windows key with the F keys.
 
-The Windows key is a nuisance when gaming, therefore it is turned into a mappable key in this mode.
-
-All in all, the user has access to the three modifiers, tab, escape, WASD, and 12 hotkeys per modifier/layer. This is 6 * 12 mappable keys on half of a keyboard.
+All in all, the user has access to the three modifiers, tab, escape, WASD, and 12 hotkeys per modifier/layer. This is 72 (6*12) mappable keys on half of a keyboard.
 
 ## More Ideas
 - More intuitive vim support: Some hotkeys are not intuitive to transition into, such as ^ and $.
