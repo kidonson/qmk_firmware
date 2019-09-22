@@ -1,4 +1,4 @@
-This is a keyboard layout originally designed for Levinson, a split 40% ortholinear board.
+This is my keyboard layout originally designed for Levinson, a split 40% ortholinear board.
 But it should work fine with non-split 40% ortholinear boards as well.
 
 This keyboard layout is designed for software development and some gaming in mind.
@@ -16,8 +16,9 @@ Most keys are placed on the center columns where the fingers rest, and all the l
 
 Another consideration was compatibility with application shortcuts.
 Application shortcuts usually involve a modifier and a button, which is fine, except when the button is on another layer.
-Since the modifiers are only on the left side of the board, the left hand may need to press the modifier, layer key, and a button simultaneously.
-In order to minimize this situation, most keys that may be used as part of hotkeys are placed on the right side of the board.
+Since the modifiers are all on the left side of the board, there could be times when the left hand may need to press the modifier, layer key, and a button simultaneously.
+This kind of finger gymnastics can force all fingers out of the home position, and should be minimized.
+This is done by placing keys that may be part of a hotkey on the right side of the board for the non-default layers.
 
 #### Gaming
 Gaming on a keyboard has different requirements than a keyboard.
@@ -34,10 +35,9 @@ Therefore, a separate gaming mode was added to address this specific use case.
 |------+------+------+------+------+------|------+------+------+------+------+------|
 | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |Shift |
 |------+------+------+------+------+------+------+------+------+------+------+------|
-| Ctrl | GUI  | Alt  | Func | Nums |Space |Space | Syms | Left | Down |  Up  |Right |
+| Ctrl | Win  | Alt  | FUNC | NUMS |Space |Space | SYMS | Left | Down |  Up  |Right |
 `-----------------------------------------------------------------------------------'
 ```
-
 The base layer is mostly similar to the standard QWERTY layout.
 Due to the ortholinear layout, it is missing some symbolic alpha keys which are moved to the symbol layer.
 Caps Lock and some of the redundant modifiers on the right side have been removed to fit the Escape and the arrow keys.
