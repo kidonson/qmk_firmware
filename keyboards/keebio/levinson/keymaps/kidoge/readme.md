@@ -1,9 +1,9 @@
-# MiniGrid Layout
+# kidoge
 
-MiniGrid is a keyboard layout originally designed for Levinson, a split 40% ortholinear board.
-But it should work well with non-split 40% ortholinear boards as well.
+This is a keyboard layout originally designed for Levinson, a split 40% ortholinear board.
+But it should work fine with non-split 40% ortholinear boards as well.
 
-This keyboard layout is designed for software development and gaming in mind. 
+This keyboard layout is designed for software development and some gaming in mind.
 
 ## Goals
 - The layout should be similar enough to easily transition into.
@@ -14,7 +14,6 @@ This keyboard layout is designed for software development and gaming in mind.
 
 ## The Layout
 ### Base Layer
-
 ```
 ,-----------------------------------------------------------------------------------.
 | Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
@@ -63,17 +62,17 @@ The underscore is placed next to the layer key so that it is easy to locate and 
 ```
 This layer contains all the symbols that could not fit in the other layers.
 The brackets are on the home row, since they are used often when programming.
-    
+
 The equal sign is also one of the most often used symbols when writing software.
 So it is placed right next to the layer key for the same reason as the underscore.
 
 ### Function Layer
-    
+
 ### Gaming: WASD Mode
 
 
 ## TODOs
 More intuitive vim support: Some hotkeys are not intuitive to transition into, such as ^ and $.
-Redue reliance on pinky finger: Pinky fingers can probably be used less for special layers, since there are many keys not being used. 
+Redue reliance on pinky finger: Pinky fingers can probably be used less for special layers, since there are many keys not being used.
 Add mode for non-WASD gaming (e.g. StarCraft 2).
 Map the three Lock keys and the Pause key to be complete.
