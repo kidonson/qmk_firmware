@@ -88,19 +88,19 @@ This layer contains all the symbols that could not fit in the other layers.
 #### Function Layer
 ```
 .-----------------------------------------.      .-----------------------------------------.
-|      | PrSc | Ins  | Home | PgUp |      |      |      |  F1  |  F2  |  F3  |  F4  |      |
+|Sleep |      |      |Light-|Light+|      |      |      |  F1  |  F2  |  F3  |  F4  | Del  |
 |------+------+------+------+------+------|      |------+------+------+------+------+------|
-|      | Next | Del  | End  | PgDn |      |      |      |  F6  |  F7  |  F8  |  F9  |      |
+|      |      | Prev | Play | Next |      |      |      |  F6  |  F7  |  F8  |  F9  | Ins  |
 |------+------+------+------+------+------|      |------+------+------+------+------+------|
-|      | Prev | Mute | Vol+ | Vol- |      |      |      |  F9  |  F10 |  F11 |  F12 |      |
+| PrSc |      | Mute | Vol- | Vol+ |      |      |      |  F9  |  F10 |  F11 |  F12 |      |
 |------+------+------+------+------+------|      |------+------+------+------+------+------|
-|      |      |      |      |      |      |      |      |      |      |      |      | WASD |
+|      |      |      |      |      |      |      | WASD |      | Home | PgDn | PgUp | End  |
 '-----------------------------------------'      '-----------------------------------------'
 ```
-The right half contains the F keys.
-The left half contains the navigation keys and the media keys.
+The right half contains the F keys and the navigation keys.
+The left half contains the media keys and system keys.
 
-At the bottom-right is the toggle key for switching to the gaming mode.
+Gaming mode can be toggled on this layer.
 This button needs to be tapped twice, to prevent accidental activation.
 
 ## Gaming Mode
@@ -152,7 +152,6 @@ All in all, the user has access to the three modifiers, tab, escape, WASD, and 1
 
 ## More Ideas
 - More intuitive vim support: Some hotkeys are not intuitive to transition into, such as ^ and $.
-- Redue reliance on pinky finger: Pinky fingers can probably be used less for special layers, since there are many keys not being used.
 - Add mode for non-WASD gaming (e.g. StarCraft 2).
 - Map the three Lock keys and the Pause key to be complete.
 - Claiming the right half of the board in gaming mode for something useful.
