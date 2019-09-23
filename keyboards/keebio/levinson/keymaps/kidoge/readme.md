@@ -12,7 +12,9 @@ In order to help with memorizing the extra layers, every left/right side of laye
 
 #### Ergonomics
 The layout is designed to reduce the finger movement.
-Most keys are placed on the center columns where the fingers rest, and all the layer buttons can be reached with a thumbs.
+Most keys are placed on the center columns where the fingers rest, and all the layer buttons can be reached with a thumb.
+
+Commonly used keys are placed toward the center of the keyboard, so that stronger fingers are used to press them.
 
 Another consideration was compatibility with application shortcuts.
 Application shortcuts usually involve a modifier and a button, which is fine, except when the button is on another layer.
@@ -56,27 +58,26 @@ Caps Lock and some of the redundant modifiers on the right side have been remove
 ```
 The right half contains the numpad, with a couple of options for 0.
 The right half contains the number symbols are placed in left-to-right, top-to-bottom on the finger-resting columns.
-(Their shifted/unshifted counterparts can be found on the Symbols layer).
+Unshifted - and = can be found on the symbol layer.
 
 #### Symbol Layer
 ```
 ,-----------------------------------------------------------------------------------.
-|      |      |      |      |   ~  |      |      |   "  |   '  |   `  |      |      |
+|      |      |   ~  |   [  |   ]  |      |      |   "  |   '  |   `  |      |      |
 |------+------+------+------+------+-------------+------+------+------+------+------|
-|      |      |      |   (  |   )  |      |      |   {  |   }  |   [  |   ]  |      |
+|      |      |   |  |   (  |   )  |      |      |   {  |   }  |   \  |      |      |
 |------+------+------+------+------+------|------+------+------+------+------+------|
-|      |      |      |      |   |  |      |      |   =  |   -  |   \  |      |      |
+|      |      |      |      |   |  |      |      |   =  |   -  |      |      |      |
 |------+------+------+------+------+------+------+------+------+------+------+------|
 |      |      |      |      |      |      |      |      |      |      |      |      |
 `-----------------------------------------------------------------------------------'
 ```
 This layer contains all the symbols that could not fit in the other layers.
-The home row contains the three brackets, and commonly used characters are placed close to the .
 
 #### Function Layer
 ```
 ,-----------------------------------------------------------------------------------.
-|      |Print | Ins  | Home | PgUp |      |      |  F1  |  F2  |  F3  |  F4  |      |
+|      | PrSc | Ins  | Home | PgUp |      |      |  F1  |  F2  |  F3  |  F4  |      |
 |------+------+------+------+------+-------------+------+------+------+------+------|
 |      | Next | Del  | End  | PgDn |      |      |  F6  |  F7  |  F8  |  F9  |      |
 |------+------+------+------+------+-------------+------+------+------+------+------|
