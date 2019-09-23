@@ -28,6 +28,17 @@ Video games often provide means to map actions to keys, so having the most mappa
 Therefore, a separate gaming mode was added to address this specific use case.
 
 ## Standard Layout
+#### Legend
+
+| Code  | Behavior                                    |
+|-------|---------------------------------------------|
+| FUNC  | Activate Function layer when held down      |
+| NUM   | Activate Number layer when held down        |
+| SYM   | Activate Symbol layer when held down        |
+| WASD  | Toggles WASD mode                           |
+| W_FUNC| Activate WASD Function layer when held down |
+| W_NUM | Acrivate WASD Number layer when held down   |
+
 #### Base Layer
 ```
 .-----------------------------------------.      .-----------------------------------------.
@@ -37,7 +48,7 @@ Therefore, a separate gaming mode was added to address this specific use case.
 |------+------+------+------+------+------|      |------+------+------+------+------+------|
 | Shift|   Z  |   X  |   C  |   V  |   B  |      |   N  |   M  |   ,  |   .  |   /  |Shift |
 |------+------+------+------+------+------|      |------+------+------+------+------+------|
-| Ctrl | GUI  | Alt  | FUNC | NUM  |Space |      |Space | SYM  | Left | Down |  Up  |Right |
+| Ctrl | Win  | Alt  | FUNC | NUM  |Space |      |Space | SYM  | Left | Down |  Up  |Right |
 '-----------------------------------------'      '-----------------------------------------'
 ```
 The base layer is mostly similar to the standard QWERTY layout.
@@ -107,7 +118,7 @@ This allows layers to be switched without interrupting in-game movement.
 |------+------+------+------+------+------|      +------+------+------+------+------|------|
 |      |      |      |      |      |      |      |      |      |      |      |      |      |
 |------+------+------+------+------+------+      +------+------+------+------+------|------|
-|      |Pause |      |W_FUNC|W_NUMS|      |      |      |      |      |      |      |      |
+|      |Pause |      |W_FUNC|W_NUM |      |      |      |      |      |      |      |      |
 `-----------------------------------------'      '-----------------------------------------'
 ```
 The Windows key is a nuisance when gaming, therefore it is replace with pause, which can be mapped in-game.
