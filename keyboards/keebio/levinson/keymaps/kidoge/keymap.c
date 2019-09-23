@@ -14,15 +14,14 @@ extern keymap_config_t keymap_config;
 #define LAYER_WASD_FUNC 18
 
 /* Normal layer keycodes */
-#define N_NUMS MO(LAYER_NUMS)
-#define N_SYMS MO(LAYER_SYMS)
-#define N_FUNC MO(LAYER_FUNC)
+#define N_NUMS MO(LAYER_NUMS) /* Turns on number layer while held down */
+#define N_SYMS MO(LAYER_SYMS) /* Turns on symbol layer while held down */
+#define N_FUNC MO(LAYER_FUNC) /* Turns on function layer while held down */
 
 /* Gaming layer keycodes */
-#define T_WASD TT(LAYER_WASD)
-
-#define W_FUNC MO(LAYER_WASD_FUNC)
-#define W_NUMS MO(LAYER_WASD_NUMS)
+#define T_WASD TT(LAYER_WASD) /* Toggles WASD layer on multi-tap */
+#define W_NUMS MO(LAYER_WASD_NUMS) /* Turns on WASD number layer while held down */
+#define W_FUNC MO(LAYER_WASD_FUNC) /* Turns on WASD function layer while held down */
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
