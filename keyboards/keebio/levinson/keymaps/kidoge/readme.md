@@ -1,12 +1,11 @@
-This is my keyboard layout originally designed for Levinson, a split 40% ortholinear board.
+This is a keyboard layout originally designed for Levinson, a split 40% ortholinear board.
 But it should work fine with non-split 40% ortholinear boards as well.
 
 This keyboard layout is designed for software development and some gaming in mind.
 
 ## Goals
 #### Easy Transition
-The layout is designed to be similar to a regular keyboard, at least for the base layer.
-The numbers and the special characters had to be put into layers due to size limitations.
+The base layout is designed to be similar to a regular keyboard, at least as much as the layout would allow.
 
 In order to help with memorizing the extra layers, every left/right side of layer has a dedicated theme.
 
@@ -121,7 +120,7 @@ This allows layers to be switched without interrupting in-game movement.
 |      |Pause |      |W_FUNC|W_NUM |      |      |      |      |      |      |      |      |
 `-----------------------------------------'      '-----------------------------------------'
 ```
-The Windows key is a nuisance when gaming, therefore it is replace with pause, which can be mapped in-game.
+The Windows key is a nuisance when gaming, therefore it is masked with pause, which can be mapped to an action in-game.
 The layer keys now point to gaming counterparts of Number and Function layers
 ```
 .-----------------------------------------.      .-----------------------------------------.
@@ -150,8 +149,7 @@ The Function layer replaces all non-WASD alphas and the windows key with the F k
 
 All in all, the user has access to the three modifiers, tab, escape, WASD, and 12 hotkeys per modifier/layer. This is 72 (6*12) mappable keys on half of a keyboard.
 
-## More Ideas
-- More intuitive vim support: Some hotkeys are not intuitive to transition into, such as ^ and $.
+## TODOs
 - Add mode for non-WASD gaming (e.g. StarCraft 2).
 - Map the three Lock keys and the Pause key to be complete.
-- Claiming the right half of the board in gaming mode for something useful.
+- Claiming the right half of the board in gaming mode for something useful, like chatting macros, or media keys.
