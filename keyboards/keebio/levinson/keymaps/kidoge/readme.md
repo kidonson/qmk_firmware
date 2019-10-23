@@ -117,10 +117,10 @@ This allows layers to be switched without interrupting in-game movement.
 |------+------+------+------+------+------|      +------+------+------+------+------|------|
 |      |      |      |      |      |      |      |      |      |      |      |      |      |
 |------+------+------+------+------+------+      +------+------+------+------+------|------|
-|      |Pause |      |W_FUNC|W_NUM |      |      |      |      |      |      |      |      |
+|      | PgDn |      |W_FUNC|W_NUM |      |      |      |      |      |      |      |      |
 `-----------------------------------------'      '-----------------------------------------'
 ```
-The Windows key is a nuisance when gaming, therefore it is masked with pause, which can be mapped to an action in-game.
+The Windows key is a nuisance when gaming, therefore it is masked with another key, so that it can be mapped to another action in-game.
 The layer keys now point to gaming counterparts of Number and Function layers
 ```
 .-----------------------------------------.      .-----------------------------------------.
