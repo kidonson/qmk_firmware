@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Function 
  * .-----------------------------------------.      .-----------------------------------------.
- * |      |      |      |Light-|Light+|      |      |      |  F1  |  F2  |  F3  |  F4  | Del  |
+ * | Alt~ |      |      |Light-|Light+|      |      |      |  F1  |  F2  |  F3  |  F4  | Del  |
  * |------+------+------+------+------+------|      |------+------+------+------+------+------|
  * |      |      | Prev | Play | Next |      |      |      |  F6  |  F7  |  F8  |  F9  | Ins  |
  * |------+------+------+------+------+------|      |------+------+------+------+------+------|
@@ -56,10 +56,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * '-----------------------------------------'      '-----------------------------------------'
  */
 [LAYER_FUNC] = LAYOUT_ortho_4x12( \
-  _______, _______, _______, KC_BRID, KC_BRIU, _______, _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_DEL, \
-  _______, _______, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_INS, \
-  KC_PSCR, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, \
-  _______, _______, _______, _______, _______, _______, T_WASD, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END \
+  LALT(KC_GRAVE), _______, _______, KC_BRID, KC_BRIU, _______, _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_DEL, \
+  _______,        _______, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_INS, \
+  KC_PSCR,        _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, \
+  _______,        _______, _______, _______, _______, _______, T_WASD, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END \
 ),
 
 /* Numbers
